@@ -73,11 +73,19 @@ Response format:
 "registered_agent": {...}
 }
 ```
-```bash
+
 Start all services
+```bash
 docker-compose up
-Rebuild containers
-docker-compose up --build
-Stop all services
-docker-compose down
 ```
+Rebuild containers
+```bash
+docker-compose up --build
+```
+Stop all services
+```bash
+docker-compose down
+
+```
+
+Frontend live at: http://localhost:3000/
